@@ -1,0 +1,52 @@
+.contact {
+  padding: 200px 0;
+  background-image: url('./../images/contact_bg.jpeg');
+  background-size: cover;
+  background-position: center;
+}
+
+.contact__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #F5F5F5;
+}
+
+.contact__title {
+  margin-bottom: 36px;
+}
+
+.contact__mail {
+  margin-bottom: 36px;
+  font-family: 'Montaga';
+}
+
+.contact__adres {
+  text-align: center;
+  margin-bottom: 36px;
+  max-width: 270px;
+}
+
+.contact__adres span{
+  font-family: 'Montaga';
+}
+
+.contact__phone {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 70px;
+  font-family: 'Montaga';
+}
+
+.contact__worktime {
+  text-align: center;
+}
+.contact__worktime span {
+  font-family: 'Montaga';
+}
+
+@media (max-width: 768px) {
+  .contact {
+    padding: 70px 0;
+  }
+}

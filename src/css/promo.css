@@ -1,0 +1,48 @@
+.promo {
+    background-image: url('../images/promo_bg.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.promo__top_title {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 400;
+    padding-top: 76px;
+    color: #435915;
+}
+
+.promo__top span {
+    display: block;
+    font-size: 80px;
+    font-family: 'Montaga';
+}
+
+.promo__bottom {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 352px;
+    padding-bottom: 294px;
+}
+
+.promo__text {
+    font-size: 40px;
+    color: #435915;
+}
+
+@media (max-width: 768px) {
+    .promo__bottom {
+        padding-top: 160px;
+        padding-bottom: 158px;
+    }
+}
+@media (max-width: 560px) {
+    .promo__top span {
+        font-size: 60px;
+    }
+    .promo__text {
+        font-size: 23px;
+    }
+}
+

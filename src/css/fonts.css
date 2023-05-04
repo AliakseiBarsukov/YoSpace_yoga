@@ -1,0 +1,32 @@
+@font-face {
+  font-display: swap;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./../fonts/open-sans.woff2') format('woff2'),
+      url('./../fonts/open-sans.woff') format('woff');
+}
+@font-face {
+  font-display: swap;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: url('./../fonts/open-sans-semibold.woff2') format('woff2'),
+      url('./../fonts/open-sans-semibold.woff') format('woff');
+}
+@font-face {
+  font-display: swap;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: url('./../fonts/open-sans-bold.woff2') format('woff2'),
+      url('./../fonts/open-sans-bold.woff') format('woff');
+}
+@font-face {
+  font-display: swap;
+  font-family: 'Montaga';
+  font-style: normal;
+  font-weight: 700;
+  src: url('./../fonts/Montaga-Regular.woff2') format('woff2'),
+      url('./../fonts/Montaga-Regular.woff') format('woff');
+}

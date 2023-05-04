@@ -1,0 +1,21 @@
+.header {
+  position: relative;
+  background-color: #B8D973;
+  width: 100%;
+  padding: 56px 0 41px 0;
+}
+
+.haeder__logo {
+  position: absolute;
+  left: 50%;
+  top: 50%; 
+  transform: translate(-50%, -50%);
+}
+
+
+
+
+
+
+
+
